@@ -41,7 +41,7 @@ data_docs_sites:
     site_index_builder:
       class_name: DefaultSiteIndexBuilder
 anonymous_usage_statistics:
-  data_context_id: 1be1baa8-52eb-4ae2-b01e-331fcf32b8c1
+  data_context_id: 58cc92f3-37f8-4f73-b08a-b1d4a5e685b6
   enabled: true
 include_rendered_content:
   globally: false
@@ -52,3 +52,8 @@ fluent_datasources:
   default_pandas_datasource:
     type: pandas
     name: default_pandas_datasource
+    assets:
+      '#ephemeral_pandas_asset':
+        name: '#ephemeral_pandas_asset'
+        type: csv
+        filepath_or_buffer: atividade2\train.csv
